@@ -1,0 +1,424 @@
+<div class="data-card">
+
+  <!-- Header -->
+
+  <div class="data-card-header">
+
+    <div>
+
+      <h5>
+        Employees
+      </h5>
+
+      <span>
+        Manage occupational health employees
+      </span>
+
+    </div>
+
+
+    <button class="btn-add">
+
+      <i class="bi bi-plus-lg"></i>
+
+      Add Employee
+
+    </button>
+
+  </div>
+
+
+  <!-- Filters -->
+
+  <div class="table-toolbar">
+
+    <div class="table-search">
+
+      <i class="bi bi-search"></i>
+
+      <input
+        type="text"
+        placeholder="Search employees...">
+
+    </div>
+
+
+    <div class="toolbar-actions">
+
+      <button class="filter-btn">
+
+        <i class="bi bi-funnel"></i>
+
+        Filter
+
+      </button>
+
+
+      <button class="filter-btn">
+
+        <i class="bi bi-download"></i>
+
+        Export
+
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <!-- Table -->
+
+  <div class="table-responsive">
+
+    <table class="table ehs-table">
+
+      <thead>
+
+        <tr>
+
+          <th width="40">
+
+            <input
+              type="checkbox"
+              class="form-check-input">
+
+          </th>
+
+          <th>Employee</th>
+
+          <th>Employee ID</th>
+
+          <th>Department</th>
+
+          <th>Position</th>
+
+          <th>Status</th>
+
+          <th>Joined Date</th>
+
+          <th class="text-end">
+            Action
+          </th>
+
+        </tr>
+
+      </thead>
+
+
+      <tbody>
+
+        <tr>
+
+          <td>
+            <input
+              type="checkbox"
+              class="form-check-input">
+          </td>
+
+
+          <td>
+
+            <div class="employee-cell">
+
+              <div class="employee-avatar purple">
+                JD
+              </div>
+
+              <div>
+
+                <strong>
+                  John Doe
+                </strong>
+
+                <small>
+                  john.doe@company.com
+                </small>
+
+              </div>
+
+            </div>
+
+          </td>
+
+
+          <td>
+            EMP-001
+          </td>
+
+
+          <td>
+            Production
+          </td>
+
+
+          <td>
+            Operator
+          </td>
+
+
+          <td>
+
+            <span class="status active">
+              Active
+            </span>
+
+          </td>
+
+
+          <td>
+            15 Jan 2024
+          </td>
+
+
+          <td class="text-end">
+
+            <div class="action-buttons">
+
+              <button
+                class="action-btn view">
+
+                <i class="bi bi-eye"></i>
+
+              </button>
+
+              <button
+                class="action-btn edit">
+
+                <i class="bi bi-pencil"></i>
+
+              </button>
+
+              <button
+                class="action-btn delete">
+
+                <i class="bi bi-trash"></i>
+
+              </button>
+
+            </div>
+
+          </td>
+
+        </tr>
+
+
+        <tr>
+
+          <td>
+            <input
+              type="checkbox"
+              class="form-check-input">
+          </td>
+
+
+          <td>
+
+            <div class="employee-cell">
+
+              <div class="employee-avatar blue">
+                RM
+              </div>
+
+              <div>
+
+                <strong>
+                  Robert Miller
+                </strong>
+
+                <small>
+                  robert@company.com
+                </small>
+
+              </div>
+
+            </div>
+
+          </td>
+
+
+          <td>
+            EMP-002
+          </td>
+
+
+          <td>
+            Warehouse
+          </td>
+
+
+          <td>
+            Supervisor
+          </td>
+
+
+          <td>
+
+            <span class="status active">
+              Active
+            </span>
+
+          </td>
+
+
+          <td>
+            20 Mar 2023
+          </td>
+
+
+          <td class="text-end">
+
+            <div class="action-buttons">
+
+              <button class="action-btn view">
+                <i class="bi bi-eye"></i>
+              </button>
+
+              <button class="action-btn edit">
+                <i class="bi bi-pencil"></i>
+              </button>
+
+              <button class="action-btn delete">
+                <i class="bi bi-trash"></i>
+              </button>
+
+            </div>
+
+          </td>
+
+        </tr>
+
+
+        <tr>
+
+          <td>
+            <input
+              type="checkbox"
+              class="form-check-input">
+          </td>
+
+
+          <td>
+
+            <div class="employee-cell">
+
+              <div class="employee-avatar orange">
+                SJ
+              </div>
+
+              <div>
+
+                <strong>
+                  Sarah Johnson
+                </strong>
+
+                <small>
+                  sarah@company.com
+                </small>
+
+              </div>
+
+            </div>
+
+          </td>
+
+
+          <td>
+            EMP-003
+          </td>
+
+
+          <td>
+            Quality
+          </td>
+
+
+          <td>
+            Inspector
+          </td>
+
+
+          <td>
+
+            <span class="status inactive">
+              Inactive
+            </span>
+
+          </td>
+
+
+          <td>
+            10 Aug 2022
+          </td>
+
+
+          <td class="text-end">
+
+            <div class="action-buttons">
+
+              <button class="action-btn view">
+                <i class="bi bi-eye"></i>
+              </button>
+
+              <button class="action-btn edit">
+                <i class="bi bi-pencil"></i>
+              </button>
+
+              <button class="action-btn delete">
+                <i class="bi bi-trash"></i>
+              </button>
+
+            </div>
+
+          </td>
+
+        </tr>
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+
+  <!-- Footer -->
+
+  <div class="table-footer">
+
+    <span>
+      Showing <strong>1-10</strong> of
+      <strong>2,450</strong> employees
+    </span>
+
+
+    <div class="pagination">
+
+      <button class="page-btn">
+        <i class="bi bi-chevron-left"></i>
+      </button>
+
+      <button class="page-btn active">
+        1
+      </button>
+
+      <button class="page-btn">
+        2
+      </button>
+
+      <button class="page-btn">
+        3
+      </button>
+
+      <button class="page-btn">
+        4
+      </button>
+
+      <button class="page-btn">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+
+    </div>
+
+  </div>
+
+</div>

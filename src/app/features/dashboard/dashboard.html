@@ -1,0 +1,91 @@
+<div class="app-layout">
+
+    <!-- Sidebar -->
+    <app-sidebar></app-sidebar>
+    <!-- Main -->
+    <main class="main-content">
+        <app-navbar></app-navbar>
+        <div class="page-content">
+            <!-- Page Header -->
+            <div class="content-header">
+                <div>
+
+                    <h2>Good Morning, Pravin 👋</h2>
+
+                    <p>
+                        Here's what's happening with your
+                        occupational health & safety today.
+                    </p>
+
+                </div>
+
+                <div>
+
+                    <button class="date-btn">
+
+                        <i class="bi bi-calendar3"></i>
+
+                        September 27, 2026
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Statistics -->
+
+            <div class="row g-4">
+
+                <div class="col-xl-3 col-md-6">
+
+                    <app-stat-card title="Total Employees" value="2,450" icon="bi bi-people-fill" color="purple"
+                        percentage="8.2" trendText="vs last month" trendType="up">
+                    </app-stat-card>
+
+                </div>
+
+
+                <div class="col-xl-3 col-md-6">
+
+                    <app-stat-card title="Safety Incidents" value="24" icon="bi bi-exclamation-triangle-fill"
+                        color="blue" percentage="4.5" trendText="vs last month" trendType="down">
+                    </app-stat-card>
+
+                </div>
+
+
+                <div class="col-xl-3 col-md-6">
+
+                    <app-stat-card title="Medical Examinations" value="356" icon="bi bi-heart-pulse-fill" color="green"
+                        percentage="12.8" trendText="completed" trendType="up">
+                    </app-stat-card>
+
+                </div>
+
+
+                <div class="col-xl-3 col-md-6">
+
+                    <app-stat-card title="Open Actions" value="38" icon="bi bi-check2-square" color="orange"
+                        percentage="6.4" trendText="vs last month" trendType="down">
+                    </app-stat-card>
+
+                </div>
+
+            </div>
+
+
+            <!-- Table -->
+
+            <div class="mt-4">
+
+                <app-data-table></app-data-table>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</div>

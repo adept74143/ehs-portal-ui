@@ -1,0 +1,52 @@
+<div class="stat-card">
+
+  <div class="stat-content">
+
+    <div class="stat-header">
+
+      <span class="stat-title">
+        {{ title }}
+      </span>
+
+      <div
+        class="stat-icon"
+        [ngClass]="color">
+
+        <i [class]="icon"></i>
+
+      </div>
+
+    </div>
+
+    <div class="stat-value">
+      {{ value }}
+    </div>
+
+    <div class="stat-footer">
+
+      <span
+        class="trend"
+        [ngClass]="trendType">
+
+        <i
+          class="bi"
+          [ngClass]="
+            trendType === 'up'
+              ? 'bi-arrow-up'
+              : 'bi-arrow-down'
+          ">
+        </i>
+
+        {{ percentage }}%
+
+      </span>
+
+      <span class="trend-text">
+        {{ trendText }}
+      </span>
+
+    </div>
+
+  </div>
+
+</div>
